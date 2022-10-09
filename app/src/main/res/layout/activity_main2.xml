@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:layout_marginTop="100px"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/Bienvenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="BIENVENIDO" />
+
+        <TextView
+            android:id="@+id/usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100px">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="136dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo1" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/imc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:hint="IMC"
+            android:padding="20dp" />
+
+        <Button
+            android:id="@+id/button_imc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="50px"
+            android:backgroundTint="#3F51B5"
+            android:text="Realizar" />
+
+        <TextView
+            android:id="@+id/envejecer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="25px"
+            android:layout_marginRight="50px"
+            android:hint="Envejecer"
+            android:padding="20dp" />
+
+        <Button
+            android:id="@+id/button_envejecer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="50px"
+            android:backgroundTint="#006796"
+            android:text="Realizar" />
+
+        <TextView
+            android:id="@+id/valor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="50px"
+            android:hint="Valor a tributar"
+            android:padding="20dp" />
+
+        <Button
+            android:id="@+id/button_valor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="50px"
+            android:backgroundTint="#006796"
+            android:text="Realizar" />
+
+    </LinearLayout>
+</LinearLayout>
